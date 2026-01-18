@@ -1,0 +1,27 @@
+.image-box{
+    position: relative;
+    top:110px;
+}
+.img-one img,
+.img-two img,
+.img-three img {
+  width: 200px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.img-one img:hover,
+.img-two img:hover,
+.img-three img:hover {
+  transform: scale(1.1);
+}
+.nav-list a {
+  font-size: 20px;
+  color: black;
+  padding: 8px 12px;
+  transition: 0.3s;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+.nav-list a:hover {
+  color: rgb(64, 17, 17);
+}
